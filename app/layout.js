@@ -1,4 +1,3 @@
-
 import './globals.css'
 import {Montserrat} from 'next/font/google'
 import Image from "next/image";
@@ -12,12 +11,11 @@ export const metadata = {
 }
 
 
-
 export default function RootLayout({children}) {
     return (
-        <html lang="ru">
+        <html lang="ru" className={"scroll-smooth"}>
         <body className={inter.className}>
-        <Navbar></Navbar>
+        <Navbar/>
         {children}
         </body>
         </html>
