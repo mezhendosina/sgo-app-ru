@@ -4,7 +4,7 @@ import Logo from "@/app/_components/logo";
 export default function Footer() {
     return (
         <div className={"w-screen bg-[var(--surface-color)] flex flex-col"}>
-            <div className={"flex justify-around items-center p-20 max-sm:p-2 max-lg:gap-4 gap-4"}>
+            <div className={"flex justify-around items-center p-20 max-sm:p-2 max-sm:pt-8 max-sm:pb-8 max-sm:flex-col max-lg:gap-4 gap-4"}>
                     <Logo/>
                 <a className={"flex flex-col gap-8 max-lg:gap-2"} href={"https://t.me/sgoapp"}>
                     <div className={"flex gap-4 items-center"}>

@@ -32,13 +32,13 @@ export default function Navbar() {
                     </button>
                 </div>
                 <Popover.Group className="hidden lg:flex lg:gap-x-12">
-                    <a href="#diary" className="text-sm font-semibold leading-6 text-gray-900">
+                    <a href="#diary" className="text-md font-semibold leading-6 text-gray-900">
                         Дневник
                     </a>
-                    <a href="#grades" className="text-sm font-semibold leading-6 text-gray-900">
+                    <a href="#grades" className="text-md font-semibold leading-6 text-gray-900">
                         Оценки
                     </a>
-                    <a href="#regions" className="text-sm font-semibold leading-6 text-gray-900">
+                    <a href="#regions" className="text-md font-semibold leading-6 text-gray-900">
                         Поддерживаемые регионы
                     </a>
                 </Popover.Group>
