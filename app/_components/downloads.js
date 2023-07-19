@@ -1,5 +1,5 @@
 const sources = [
-    {header: "Скачать как", body: "APK", icon: "android.svg", "active": true, "href": "/download_app"},
+    {header: "Скачать как", body: "APK", icon: "android.svg", "active": true, "href": "/SGO app.apk"},
     {header: "Доступно в", body: "Telegram-канале", icon: "telegram.svg", active: true, href: "https://t.me/sgoapp"},
     {header: "Скоро в", body: "RuStore", icon: "rustore.svg", active: false, href: "#download"},
     {header: "Совсем скоро в", body: "Google play", icon: "google-play.svg", active: false, href: "#download"}
