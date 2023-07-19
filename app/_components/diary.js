@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function Diary() {
-    return (<div className={"h-screen flex  :flex-col items-center  justify-around pt-32"} id={"diary"}>
+    return (<div className={"max-h-screen flex  :flex-col items-center  justify-around pt-32"} id={"diary"}>
         <div className={"flex flex-col"}>
             <p className={"text-4xl font-semibold text-text-color "}>Дневник, в котором </p>
             <p className={"text-4xl font-semibold text-text-color "}>нет ничего лишнего</p>

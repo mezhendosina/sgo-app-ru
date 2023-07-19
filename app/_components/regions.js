@@ -19,24 +19,23 @@ const regions = [
     {name: "Ульяновская область", icon: "ylanovsk.svg"},
     {name: "Челябинская область", icon: "chel.svg"},
     {name: "Черноголовка", icon: "chern.png"},
-    {name: "Чувашская Республика", icon: "chuvashsk.svg"},
+    {name: "Чувашская Республика", icon: "chuvashsk.png"},
     {name: "Ямало-Ненецкий Автономный Округ", icon: "yamal_nen.svg"}
 ]
 
 export default function Regions() {
     return (
-        <div className={"min-h-screen flex flex-col  items-center pt-32"} id={"regions"}>
+        <div className={" flex flex-col  items-center pt-32"} id={"regions"}>
             <p>Поддерживаемые регионы</p>
-            <div className={"flex flex-col flex-wrap space-y-4 mt-8"}>
-                {
-                    regions.map((item) => (
-                            <div key={item.name} className={"flex items-center "}>
-                                <img src={`/regions/${item.icon}`} className={"w-8"}/>
-                                <b className={"ps-4 text-xl"}>{item.name}</b>
-                            </div>
+            <div className={"columns-2xs w-screen max-w-7xl  p-16 gap-32  "}>
+                {regions.map((item) => (
+                        <div key={item.name} className={"flex items-center pb-4 max-xl:justify-center"}>
+                            <img src={`/regions/${item.icon}`} className={"w-8"}/>
+                            <b className={"ps-4 text-xl"}>{item.name}</b>
+                        </div>
 
-                        )
                     )
+                )
                 }
             </div>
         </div>

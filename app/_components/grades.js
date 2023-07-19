@@ -1,6 +1,6 @@
 export default function Grades() {
     return (
-        <div className={"h-screen flex items-center justify-around"} id={"grades"}>
+        <div className={"max-h-screen flex items-center justify-around pt-96 pb-96"} id={"grades"}>
             <div>
                 <p>Быстрый доступ к</p>
                 <div className={"flex"}>

@@ -11,6 +11,9 @@ module.exports = {
             colors: {
                 "text-color": "var(--text-color)",
                 "surface-color": "var(--surface-color)",
+                "dynamic-color-text": "var(--dynamic-color-text)",
+                "security-color-text": "var(--security-color-text)",
+                "free-color-text": "var(--free-color-text)"
             }
         },
     },

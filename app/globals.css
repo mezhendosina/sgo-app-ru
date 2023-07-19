@@ -8,6 +8,15 @@
     --text-color: rgba(0, 18, 82, 1);
     --surface-color: rgba(233, 242, 255, 1);
     --button-color: rgba(177, 213, 255, 1);
+
+    --dynamic-color-bg: rgba(79, 91, 69, 1);
+    --dynamic-color-text: rgba(234, 252, 196, 1);
+
+    --security-color-bg: rgba(254, 255, 245, 1);
+    --security-color-text:rgba(61, 63, 49, 1);
+
+    --free-color-bg: rgba(214, 228, 255, 1);
+    --free-color-text: rgba(29, 47, 73, 1);
 }
 
 /*@media (prefers-color-scheme: dark) {*/
@@ -27,5 +36,8 @@ p {
 }
 
 b {
-    @apply font-light
+    @apply font-light text-xl
+}
+h4{
+    @apply font-semibold text-3xl
 }

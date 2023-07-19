@@ -14,7 +14,7 @@ export default function Home() {
                 <Main/>
                 <Diary/>
                 <Grades/>
-                {/*<OneMoreThing/>*/}
+                <OneMoreThing/>
                 <Regions/>
                 <Downloads/>
             </div>

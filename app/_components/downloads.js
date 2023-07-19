@@ -19,7 +19,7 @@ export default function Downloads() {
                         <img src={`/sources/${item.icon}`} alt={""}/>
                         <div className={"flex flex-col ps-4"}>
                             <b className={"font-light text-text-color"}>{item.header}</b>
-                            <b className={"text-text-color"}>{item.body}</b>
+                            <b className={"text-text-color font-semibold"}>{item.body}</b>
                         </div>
                     </a>
                 ))
