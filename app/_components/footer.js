@@ -23,7 +23,7 @@ export default function Footer() {
                 </div>
 
             </div>
-            <div className={" flex flex-col items-center justify-center lg:hidden ps-2 pe-2"}>
+            <div className={"flex flex-col items-center justify-center lg:hidden ps-2 pe-2 pb-5"}>
                 <b className={"text-center"}>Приложение не имеет отношения к «ИрТеху»</b>
                 <b>Made with ❤️ by <a href={"https://t.me/mezhendosina"} className={"font-bold"}>@mezhendosina</a></b>
 
