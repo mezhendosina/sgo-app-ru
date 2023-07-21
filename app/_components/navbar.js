@@ -1,5 +1,5 @@
 'use client'
-import { useState} from 'react'
+import {useState} from 'react'
 import {Dialog, Popover} from '@headlessui/react'
 import {
     Bars3Icon,
@@ -63,18 +63,21 @@ export default function Navbar() {
                                 <a
                                     href="#diary"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    onClick={() => setMobileMenuOpen(false)}
                                 >
                                     Дневник
                                 </a>
                                 <a
                                     href="#grades"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    onClick={() => setMobileMenuOpen(false)}
                                 >
                                     Оценки
                                 </a>
                                 <a
                                     href="#regions"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    onClick={() => setMobileMenuOpen(false)}
                                 >
                                     Поддерживаемые регионы
                                 </a>
