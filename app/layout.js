@@ -2,6 +2,8 @@ import './globals.css'
 import {Montserrat} from 'next/font/google'
 import Image from "next/image";
 import Navbar from "@/app/_components/navbar";
+import Script from "next/script";
+import Head from "next/head";
 
 const inter = Montserrat({subsets: ['cyrillic', 'latin']})
 
@@ -14,10 +16,22 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="ru" className={"scroll-smooth"}>
+        <Script id={"ya-metrika"} type="text/javascript">
+            {`(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+                (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+                ym(91916497, "init", {clickmap:true,
+                 defer: true,
+        trackLinks:true,
+        accurateTrackBounce:true});`}
+        </Script>
         <body className={inter.className}>
         <Navbar/>
         {children}
+        <div><img src="https://mc.yandex.ru/watch/91916497" className={ "absolute -left-9999px"} alt="" /></div>
         </body>
+
         </html>
     )
 }
