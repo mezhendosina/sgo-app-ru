@@ -31,7 +31,7 @@ export default function Regions() {
                 {regions.map((item) => (
                         <div key={item.name} className={"flex items-center pb-4 max-xl:justify-center"}>
                             <img src={`/regions/${item.icon}`} className={"w-8"}/>
-                            <b className={"ps-4 text-xl"}>{item.name}</b>
+                            <b className={"ps-4 text-xl max-lg:text-center"}>{item.name}</b>
                         </div>
 
                     )
